@@ -1,0 +1,145 @@
+.formdiv{
+    position: relative;
+    width: 600px;
+    height: 680px;
+    border-radius: 15px;
+    border: 1px solid rgb(190, 190, 190);
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px;
+}
+    
+    
+.googleicon{
+    position: absolute;
+    margin-left: 40%;
+    margin-right: 30%;
+     top: 50px;
+}
+    
+.loginp{
+        position: absolute;
+        font-size: 35px;
+        top: 90px;
+        margin-left: 42%;
+        margin-right: 45%;
+        font-family: Arial, Helvetica, sans-serif;
+}
+    
+.pinfo{
+        font-size: 20px;
+        margin-top: 185px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+}
+    
+.emailorphone{
+        margin-top: 15px;
+        width: 450px;
+        height: 70px;
+        border: 1px solid rgb(190, 190, 190);
+        margin-left: 12%;
+        margin-right: 25%;
+        border-radius: 5px;
+        font-size: 20px;
+}
+    
+.forgotemailp{
+        position: relative;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(26, 23, 248);
+        left: 70px;
+        top: 10px;
+        text-decoration: none;
+    
+}
+    
+.safetyp{
+        width: 450px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        margin-left: 70px;
+        margin-top:70px;
+        word-wrap: break-word;
+}
+    
+.morea{
+        text-decoration: none;
+        color: rgb(26, 23, 248);
+}
+    
+.createp{
+        display: inline-block;
+        margin-top:45px;
+        font-size: 20px;
+        margin-left: 70px;
+        color: rgb(26, 23, 248);
+        text-decoration: none;
+}
+    
+.nextbtn{
+        margin-left: 175px;
+    
+        width: 120px;
+        height: 40px;
+        background-color:rgb(22, 56, 246) ;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+}
+    
+
+
+label {
+    color: rgb(8, 7, 7);
+    position: absolute;
+    pointer-events: none;
+    left: 85px;
+    top: 43px;
+    transition: 0.2s;
+}
+
+.emailorphone:focus{
+       outline-color: blue;
+    
+}
+
+.emailorphone:focus + .label
+{
+        top: 9px;
+        left: 80px;
+        font-size: 16px;
+        color: #064dd3;
+        background-color:#fff;
+        padding:0 5px 0 5px;
+
+}
+
+.langselection{
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 630px;
+    border-color: white;
+}
+
+.footernav{
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 880px;
+    list-style-type: none;
+    
+}
+
+.footernav a{
+    text-decoration: none;
+    color: black;
+}
+
+.footernav li{
+    display: inline-block;
+    padding: 15px;
+}
